@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Flash Software Solution</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        *{box-sizing:border-box;margin:0;padding:0}
+        html{scroll-behavior:smooth}
+        body{
+            font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+            background:#07070d;
+            color:#e0e0e8;
+            min-height:100vh;
+            display:flex;
+            flex-direction:column;
+        }
+        body::before{
+            content:'';
+            position:fixed;
+            inset:0;
+            background:radial-gradient(ellipse at 30% 40%,rgba(0,102,255,0.06),transparent 55%),
+                       radial-gradient(ellipse at 70% 60%,rgba(120,50,255,0.04),transparent 50%);
+            z-index:-1;
+            pointer-events:none;
+        }
+        header{
+            position:fixed;top:0;left:0;right:0;z-index:100;
+            padding:14px 40px;display:flex;justify-content:space-between;align-items:center;
+            background:rgba(7,7,13,0.75);backdrop-filter:blur(24px) saturate(1.4);
+            -webkit-backdrop-filter:blur(24px) saturate(1.4);
+            border-bottom:1px solid rgba(255,255,255,0.05);
+        }
+        header .brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+        header .brand-icon{
+            width:32px;height:32px;border-radius:10px;
+            background:linear-gradient(135deg,#0066ff,#00bbff);
+            display:flex;align-items:center;justify-content:center;
+            font-weight:900;font-size:16px;color:#fff;
+        }
+        header .brand-text{
+            font-size:20px;font-weight:800;letter-spacing:-0.4px;
+            background:linear-gradient(135deg,#fff,#9999bb);
+            -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+        }
+        nav{display:flex;align-items:center;gap:6px}
+        nav a{
+            color:#8888a0;text-decoration:none;font-size:14px;font-weight:500;
+            padding:8px 16px;border-radius:10px;transition:all 0.25s ease;
+        }
+        nav a:hover{color:#fff;background:rgba(255,255,255,0.06)}
+        nav .nav-active{color:#fff;background:rgba(255,255,255,0.06)}
+        main{flex:1;display:flex;align-items:center;justify-content:center;padding:100px 24px 60px}
+        .contact-card{
+            max-width:520px;width:100%;text-align:center;
+            background:rgba(255,255,255,0.02);
+            border:1px solid rgba(255,255,255,0.06);
+            border-radius:28px;padding:56px 40px;
+            position:relative;overflow:hidden;
+        }
+        .contact-card::before{
+            content:'';position:absolute;inset:0;
+            background:radial-gradient(ellipse at 50% 0%,rgba(0,102,255,0.06),transparent 60%);
+            pointer-events:none;
+        }
+        .contact-card h1{
+            font-size:32px;font-weight:900;letter-spacing:-1px;color:#fff;
+            margin-bottom:12px;position:relative;
+        }
+        .contact-card p{
+            color:#777790;font-size:15px;line-height:1.7;
+            margin:0 auto 32px;position:relative;
+        }
+        .contact-card .email-link{
+            display:inline-flex;align-items:center;gap:10px;
+            text-decoration:none;font-size:16px;font-weight:600;
+            padding:16px 36px;border-radius:14px;
+            background:linear-gradient(135deg,#0066ff,#0052cc);color:#fff;
+            box-shadow:0 4px 28px rgba(0,102,255,0.25);
+            transition:all 0.3s ease;position:relative;
+        }
+        .contact-card .email-link:hover{
+            transform:translateY(-2px);
+            box-shadow:0 8px 40px rgba(0,102,255,0.35);
+        }
+        footer{
+            text-align:center;padding:24px;
+            border-top:1px solid rgba(255,255,255,0.04);
+        }
+        footer p{color:#555570;font-size:13px}
+        @media(max-width:640px){
+            header{padding:12px 20px}
+            header .brand-text{font-size:17px}
+            nav a{font-size:12px;padding:6px 10px}
+            .contact-card{padding:40px 24px}
+            .contact-card h1{font-size:26px}
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="/" class="brand">
+            <div class="brand-icon">F</div>
+            <span class="brand-text">Flash Software</span>
+        </a>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/#products">Apps</a>
+            <a href="/#indie">Indie</a>
+            <a href="/contact.html" class="nav-active">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contact-card">
+            <h1>Get in Touch</h1>
+            <p>Have a question, want to pitch your app, or need support? We're here to help. Reach out anytime.</p>
+            <a href="mailto:flashsoftware20510@proton.me" class="email-link">
+                flashsoftware20510@proton.me &rarr;
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Flash Software Solution</p>
+    </footer>
+</body>
+</html>
