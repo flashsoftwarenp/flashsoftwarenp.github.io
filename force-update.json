@@ -1,4 +1,10 @@
 {"tej.mircroscope.camera": {
   "version_less_than": "2.8",
   "update": true
-}}
+},
+
+"tej.converter.mp4tomp3audio": {
+  "version_less_than": "3.4",
+  "update": true
+}
+}
