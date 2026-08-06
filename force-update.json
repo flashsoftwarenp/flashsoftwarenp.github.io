@@ -11,5 +11,9 @@
 "flash.binoculars.camera": {
   "version_less_than": "3.7",
   "update": true
+},
+  "reze.cutecalendar": {
+  "version_less_than": "1.3",
+  "update": true
 }
 }
