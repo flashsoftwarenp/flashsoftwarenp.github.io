@@ -6,5 +6,10 @@
 "tej.converter.mp4tomp3audio": {
   "version_less_than": "3.4",
   "update": true
+},
+
+"flash.binoculars.camera": {
+  "version_less_than": "3.7",
+  "update": true
 }
 }
