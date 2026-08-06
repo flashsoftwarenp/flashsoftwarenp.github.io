@@ -1,19 +1,26 @@
-{"tej.mircroscope.camera": {
-  "version_less_than": "2.8",
-  "update": true
-},
-
-"tej.converter.mp4tomp3audio": {
-  "version_less_than": "3.4",
-  "update": true
-},
-
-"flash.binoculars.camera": {
-  "version_less_than": "3.7",
-  "update": true
-},
+{
+  "tej.mircroscope.camera": {
+    "version_less_than": "2.8",
+    "update": true
+  },
+  "tej.converter.mp4tomp3audio": {
+    "version_less_than": "3.4",
+    "update": true
+  },
+  "flash.binoculars.camera": {
+    "version_less_than": "3.7",
+    "update": true
+  },
   "reze.cutecalendar": {
-  "version_less_than": "1.3",
-  "update": true
-}
+    "version_less_than": "1.3",
+    "update": true
+  },
+  "reze.microscope.zoomcamera": {
+    "version_less_than": "2.3",
+    "update": true
+  },
+  "yangsing.shakeflashlight": {
+    "version_less_than": "2.5",
+    "update": true
+  }
 }
