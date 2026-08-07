@@ -18,5 +18,9 @@
   "yangsing.shakeflashlight": {
     "version_less_than": "2.5",
     "update": true
+  },
+  "app.battery.health.percentage": {
+    "version_less_than": "1.6",
+    "update": true
   }
 }
