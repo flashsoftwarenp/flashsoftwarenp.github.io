@@ -22,5 +22,9 @@
   "app.battery.health.percentage": {
     "version_less_than": "1.6",
     "update": true
+  },
+  "app.dynamic.island": {
+    "version_less_than": "1.1",
+    "update": true
   }
 }
