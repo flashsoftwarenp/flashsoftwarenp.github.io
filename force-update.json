@@ -28,7 +28,7 @@
     "update": true
   },
   "alee.snake2d.game": {
-    "version_less_than": "1.8",
+    "version_less_than": "1.9",
     "update": true
   }
 }
