@@ -4,7 +4,7 @@
     "update": true
   },
   "telescope.zoomhdcamera": {
-    "version_less_than": "2.8",
+    "version_less_than": "2.9",
     "update": true
   },
   "tej.converter.mp4tomp3audio": {
